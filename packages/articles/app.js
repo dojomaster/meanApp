@@ -41,6 +41,7 @@ Articles.register(function(app, auth, database) {
     // Use this for saving data from administration pages
     Articles.settings({'someSetting':'some value'},function (err, settings) {
       //you now have the settings object
+      //Just adding a line here
     });
 
     // Another save settings example this time with no callback
